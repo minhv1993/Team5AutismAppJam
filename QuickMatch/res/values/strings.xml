@@ -4,5 +4,7 @@
     <string name="app_name">QuickMatch</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="profile_screen">ProfileScreen\nCONTENT</string>
+    <string name="title_activity_profile_screen">ProfileScreen</string>
 
 </resources>

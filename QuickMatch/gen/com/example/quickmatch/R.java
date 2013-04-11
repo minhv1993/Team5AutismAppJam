@@ -25,17 +25,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int dummy_button=0x7f070002;
         public static final int fullscreen_content=0x7f070000;
         public static final int fullscreen_content_controls=0x7f070001;
     }
     public static final class layout {
         public static final int activity_home=0x7f030000;
+        public static final int activity_profile_screen=0x7f030001;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
         public static final int dummy_button=0x7f050001;
         public static final int dummy_content=0x7f050002;
+        public static final int profile_screen=0x7f050003;
+        public static final int title_activity_profile_screen=0x7f050004;
     }
     public static final class style {
         /** 

@@ -30,6 +30,12 @@
             android:label="@string/title_activity_profile_screen"
             android:theme="@style/FullscreenTheme" >
         </activity>
+        <activity
+            android:name="com.example.quickmatch.WorldScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_world_screen"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
     </application>
 
 </manifest>

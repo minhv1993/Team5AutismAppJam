@@ -37,7 +37,7 @@ public class ProfileScreen extends Activity {
            public void onClick(View view) {
         	   goToWorldScreen(view);
            }});
-        
+
 	}
 	
 	

@@ -5,6 +5,7 @@ import com.example.quickmatch.util.SystemUiHider;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Point;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -12,6 +13,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.GridLayout;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -32,7 +34,8 @@ public class WorldScreen extends Activity {
 		
 		setContentView(R.layout.activity_world_screen);
 
-		final View lvlId = findViewById(R.id.World_Screen);;
+		
+		final View lvlId = findViewById(R.id.Menu1);;
 
 		// Set up the user interaction to manually show or hide the system UI.
 		lvlId.setOnClickListener(new View.OnClickListener() {

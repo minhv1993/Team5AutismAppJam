@@ -17,7 +17,8 @@
             android:name="com.example.quickmatch.Home"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
-            android:theme="@style/FullscreenTheme" >
+            android:theme="@style/FullscreenTheme"
+            android:screenOrientation="landscape" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,19 +29,22 @@
             android:name="com.example.quickmatch.ProfileScreen"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_profile_screen"
-            android:theme="@style/FullscreenTheme" >
+            android:theme="@style/FullscreenTheme"
+            android:screenOrientation="landscape" >
         </activity>
         <activity
             android:name="com.example.quickmatch.WorldScreen"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_world_screen"
-            android:theme="@style/FullscreenTheme" >
+            android:theme="@style/FullscreenTheme"
+            android:screenOrientation="landscape" >
         </activity>
         <activity
             android:name="com.example.quickmatch.LevelScreen"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_level_screen"
-            android:theme="@style/FullscreenTheme" >
+            android:theme="@style/FullscreenTheme"
+            android:screenOrientation="landscape" >
         </activity>
     </application>
 

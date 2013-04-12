@@ -29,7 +29,6 @@ public class Home extends Activity {
         
         setContentView(R.layout.activity_home);
 
-        final View controlsView = findViewById(R.id.fullscreen_content_controls);
         final View contentView = findViewById(R.id.fullscreen_content);
 
         contentView.setOnClickListener(new View.OnClickListener() {

@@ -6,5 +6,7 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="profile_screen">ProfileScreen\nCONTENT</string>
     <string name="title_activity_profile_screen">ProfileScreen</string>
+    <string name="title_activity_world_screen">WorldScreen</string>
+    <string name="profile_text">PROFILE MENU</string>
 
 </resources>

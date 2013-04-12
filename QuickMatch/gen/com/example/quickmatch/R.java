@@ -19,7 +19,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int buttonBarStyle=0x7f010000;
     }
     public static final class color {
-        public static final int black_overlay=0x7f040000;
+        public static final int black_overlay=0x7f04000c;
+        public static final int sysBlack=0x7f040000;
+        public static final int sysBlue=0x7f040001;
+        public static final int sysCyan=0x7f040002;
+        public static final int sysDkGray=0x7f040003;
+        public static final int sysGray=0x7f040004;
+        public static final int sysGreen=0x7f040005;
+        public static final int sysLtGray=0x7f040006;
+        public static final int sysMagenta=0x7f040007;
+        public static final int sysRed=0x7f040008;
+        public static final int sysTransparent=0x7f040009;
+        public static final int sysWhite=0x7f04000a;
+        public static final int sysYellow=0x7f04000b;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
@@ -27,17 +39,25 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     public static final class id {
         public static final int fullscreen_content=0x7f070000;
         public static final int fullscreen_content_controls=0x7f070001;
+        public static final int profile1=0x7f070004;
+        public static final int profile2=0x7f070005;
+        public static final int profile3=0x7f070006;
+        public static final int profile_text=0x7f070003;
+        public static final int profile_title=0x7f070002;
     }
     public static final class layout {
         public static final int activity_home=0x7f030000;
         public static final int activity_profile_screen=0x7f030001;
+        public static final int activity_world_screen=0x7f030002;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
         public static final int dummy_button=0x7f050001;
         public static final int dummy_content=0x7f050002;
         public static final int profile_screen=0x7f050003;
+        public static final int profile_text=0x7f050006;
         public static final int title_activity_profile_screen=0x7f050004;
+        public static final int title_activity_world_screen=0x7f050005;
     }
     public static final class style {
         /** 

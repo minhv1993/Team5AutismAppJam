@@ -9,5 +9,7 @@
     <string name="title_activity_world_screen">WorldScreen</string>
     <string name="profile_text">PROFILE MENU</string>
     <string name="title_activity_level_screen">LevelScreen</string>
+    <string name="title_activity_game_layout">GameLayoutActivity</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 
 </resources>

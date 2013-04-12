@@ -4,6 +4,7 @@ import com.example.quickmatch.util.SystemUiHider;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -40,14 +41,16 @@ public class LevelScreen extends Activity {
 		newLevel.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				//INSERT GO TO ACTIVITY!!!
+					goToGameScreen(view);
 				}
 			}
 		);
 	}
+	
+	private void goToGameScreen(View view) {
+		Intent intent = new Intent(this, GameLayoutActivity.class);
+ 	   	startActivity(intent);
+ 	   	//take the data from profile1 and load this shit
+	}
 }	
-
-		// Upon interacting with UI controls, delay any scheduled hide()
-		// operations to prevent the jarring behavior of controls going away
-		// while interacting with the UI.
 	

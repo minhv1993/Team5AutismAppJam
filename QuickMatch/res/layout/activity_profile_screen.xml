@@ -54,7 +54,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:background="@color/sysBlue"
+            android:background="@drawable/roundedcorners"
             android:clickable="true" >
 
         </FrameLayout>
@@ -68,7 +68,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:background="@color/sysRed"
+            android:background="@drawable/roundedcorners"
             android:clickable="true" >
 
         </FrameLayout>
@@ -82,7 +82,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="20dp"
             android:layout_weight="1"
-            android:background="@color/sysYellow"
+            android:background="@drawable/roundedcorners"
             android:clickable="true" >
 
         </FrameLayout>

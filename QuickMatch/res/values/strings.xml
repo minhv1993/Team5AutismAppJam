@@ -10,5 +10,12 @@
     <string name="title_activity_level_screen">LevelScreen</string>
     <string name="title_activity_game_layout">GameLayoutActivity</string>
     <string name="world_menu">World Menu</string>
+    <string name="title_activity_world_screen1">WorldScreen1</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="world1_title">World 1 Menu</string>
+    <string name="pause">THE GAME IS PAUSED!</string>
+    <string name="fire">SHOOT</string>
+    <string name="cancel">RETREAT</string>
 
 </resources>

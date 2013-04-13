@@ -1,18 +1,15 @@
 package com.example.quickmatch;
 
 import com.example.quickmatch.util.SystemUiHider;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.GestureDetector.OnGestureListener;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.GridLayout;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.

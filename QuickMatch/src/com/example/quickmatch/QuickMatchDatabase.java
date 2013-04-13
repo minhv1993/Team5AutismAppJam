@@ -6,15 +6,18 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class QuickMatchDatabase {
 
+	private static String DATABASE_NAME = "quickMatchDB";
+	private final QuickMatchOpenHelper qmDatabaseOpenHelper;
 	
-	
+	public QuickMatchDatabase(Context context) {
+        qmDatabaseOpenHelper = new QuickMatchOpenHelper(context);
+    }
 	
 	
 	//Helps run DB commands
 	private static class QuickMatchOpenHelper extends SQLiteOpenHelper {
 
 		private static final String TAG = "QuickMatchOpenHelper";
-		private static String DATABASE_NAME = "quickMatchDB";
 		private static Boolean initializedDB;
 	    private static final int DATABASE_VERSION = 2;
 	    //Profile Table Build Contents

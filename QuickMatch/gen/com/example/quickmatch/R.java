@@ -35,34 +35,54 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int path3053=0x7f020001;
+        public static final int roundedcorners=0x7f020002;
     }
     public static final class id {
-        public static final int World_Screen=0x7f070009;
+        public static final int LinearLayout1=0x7f07000e;
+        public static final int Menu1=0x7f07000a;
+        public static final int Menu2=0x7f07000b;
+        public static final int Menu3=0x7f07000c;
+        public static final int Menu4=0x7f07000d;
+        public static final int cancel_b=0x7f070010;
+        public static final int close_b=0x7f070011;
+        public static final int close_text=0x7f07000f;
         public static final int fullscreen_content=0x7f070000;
         public static final int fullscreen_content_controls=0x7f070001;
         public static final int level1=0x7f070003;
-        public static final int profile1=0x7f070006;
-        public static final int profile2=0x7f070007;
-        public static final int profile3=0x7f070008;
-        public static final int profile_text=0x7f070005;
-        public static final int profile_title=0x7f070004;
+        public static final int profile1=0x7f070007;
+        public static final int profile2=0x7f070008;
+        public static final int profile3=0x7f070009;
+        public static final int profile_menu=0x7f070004;
+        public static final int profile_text=0x7f070006;
+        public static final int profile_title=0x7f070005;
         public static final int textView1=0x7f070002;
     }
     public static final class layout {
-        public static final int activity_home=0x7f030000;
-        public static final int activity_level_screen=0x7f030001;
-        public static final int activity_profile_screen=0x7f030002;
-        public static final int activity_world_screen=0x7f030003;
+        public static final int activity_game_layout=0x7f030000;
+        public static final int activity_home=0x7f030001;
+        public static final int activity_level_screen=0x7f030002;
+        public static final int activity_profile_screen=0x7f030003;
+        public static final int activity_world_screen=0x7f030004;
+        public static final int exitdialog=0x7f030005;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
-        public static final int dummy_button=0x7f050001;
-        public static final int dummy_content=0x7f050002;
-        public static final int profile_screen=0x7f050003;
-        public static final int profile_text=0x7f050006;
-        public static final int title_activity_level_screen=0x7f050007;
-        public static final int title_activity_profile_screen=0x7f050004;
-        public static final int title_activity_world_screen=0x7f050005;
+        public static final int cancel=0x7f05000f;
+        public static final int dummy_button=0x7f05000a;
+        public static final int dummy_content=0x7f05000b;
+        public static final int fire=0x7f05000e;
+        public static final int pause=0x7f05000d;
+        public static final int profile_screen=0x7f050002;
+        public static final int profile_text=0x7f050005;
+        public static final int splash=0x7f050001;
+        public static final int title_activity_game_layout=0x7f050007;
+        public static final int title_activity_level_screen=0x7f050006;
+        public static final int title_activity_profile_screen=0x7f050003;
+        public static final int title_activity_world_screen=0x7f050004;
+        public static final int title_activity_world_screen1=0x7f050009;
+        public static final int world1_title=0x7f05000c;
+        public static final int world_menu=0x7f050008;
     }
     public static final class style {
         /** 

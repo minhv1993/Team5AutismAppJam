@@ -1,11 +1,12 @@
 package com.example.quickmatch;
 
 import com.example.quickmatch.util.SystemUiHider;
-
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
+import android.media.MediaPlayer;
+import android.media.MediaPlayer.OnCompletionListener;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -22,8 +23,9 @@ import android.widget.Button;
  */
 public class Home extends Activity {
 
-	private static final boolean TOGGLE_ON_CLICK = true;
+	
 	final Context context = this;
+	boolean menu_sound = false;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -40,9 +42,18 @@ public class Home extends Activity {
 		contentView.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				if (TOGGLE_ON_CLICK) {
+					if (menu_sound) { 
+						MediaPlayer mp;
+						mp = MediaPlayer.create(context, R.raw.menuselect);
+						mp.setOnCompletionListener(new OnCompletionListener() {
+							public void onCompletion(MediaPlayer mp) {
+								mp.release();
+							}
+						});
+						mp.start();
+					}
 					goToProfileScreen(view);
-				}
+
 			}
 		});
 	}
